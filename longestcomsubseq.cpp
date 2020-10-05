@@ -2,6 +2,7 @@
 using namespace std;
 
 //NOTE: Use memoiztion to save time from exponential O(2^n) to O(length(s)*length(t))
+//Dynamic Programming approach to the same will be added soon. Keep trying :)
 
 int LCS(string s, string t, int l, int r){       //recursive function declared. takes the two strings to check
                                                 //and l and r the iterators for the two strings respectively
